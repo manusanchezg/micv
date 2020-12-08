@@ -55,13 +55,9 @@ body{
     font-size: 20px;
     font-weight: 400;
 }
-
-body{
-    background-image: url("7c4a5a5ee7b7e5955007391b2ce55665.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
+#ExpLab, .contacto, #Sobremi{
+    text-align: center;
+}
+#Sobremi{
+    vertical-align: middle;
 }
