@@ -1,0 +1,102 @@
+<DOCTYPE! html>
+    <html>
+    <head>
+        <meta charset:"utf-8">
+        <meta name="viewport" content="initial-scale=1.0,
+width=device-width">
+        <title>Mi CV</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        </head>
+        <body>
+            <div class="row">
+                <div class="col-10">
+                    <div>
+                        <h4>Nombre</h4>
+                        <div class="input-group flex-nowrap">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="addon-wrapping">Nombre</span>
+                            </div>
+                            <input type="text" class="form-control nombre" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                        </div>
+                    </div>
+                    <div>
+                        <h4>Apellido</h4>
+                        <div class="input-group flex-nowrap">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="addon-wrapping">Apellido</span>
+                            </div>
+                            <input type="text" class="form-control apellido" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                        </div>
+                    </div>
+                    <div>
+                        <h4>Nacimineto</h4>
+                        <div class="input-group flex-nowrap">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="addon-wrapping">Nacimiento</span>
+                            </div>
+                            <input type="text" class="form-control nacimiento" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                        </div>
+                    </div>
+                    <div>
+                        <h4>Hobbies</h4>
+                        <div class="input-group flex-nowrap">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="addon-wrapping">Hobbies</span>
+                            </div>
+                            <input type="text" class="form-control hobbies" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-outline-dark saveInfo">Guardar</button>
+                </div>
+                <div class="col-10 experiencia"></div>
+                <div class="col-6">
+                    <h4>Formulario</h4>
+                    <input class="empresa" placeholder="Empresa">
+                    <input class="desde" placeholder="desde">
+                    <input class="hasta" placeholder="hasta">
+                    <input class="cargo" placeholder="cargo">
+                    <button type="button" class="btn btn-outline-primary btnGuardar">Guardar</button>
+                    <button type="button" class="btn btn-outline-primary btnEditar" firebaseid="" style="display: none;">Editar</button>
+                    <button type="button" class="btn btn-outline-primary btnCancelar">Cancelar</button>
+                </div>
+                <div class="col-12 contacto"></div>
+                <button type="button" class="btn btn-outline-primary btnGuardar">Guardar</button>
+                <button type="button" class="btn btn-outline-primary btnEditar" firebaseid="" style="display: none;">Editar</button>
+                <button type="button" class="btn btn-outline-primary btnCancelar">Cancelar</button>
+            </div>
+         
+            <!-- The core Firebase JS SDK is always required and must be listed first -->
+            <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+
+            <!-- TODO: Add SDKs for Firebase products that you want to use
+https://firebase.google.com/docs/web/setup#available-libraries -->
+            <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-database.js"></script>
+
+            <script>
+                // Your web app's Firebase configuration
+                // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+                var firebaseConfig = {
+                    apiKey: "AIzaSyCF2Rf-oWcSFwvrm0mxcVx2ypkQ2GEQ10I",
+                    authDomain: "manuel-sanchez-german.firebaseapp.com",
+                    databaseURL: "https://manuel-sanchez-german.firebaseio.com",
+                    projectId: "manuel-sanchez-german",
+                    storageBucket: "manuel-sanchez-german.appspot.com",
+                    messagingSenderId: "878948123313",
+                    appId: "1:878948123313:web:c1b28e2a0f1a654e8d1890",
+                    measurementId: "G-81LLZH5VET"
+                };
+                // Initialize Firebase
+                firebase.initializeApp(firebaseConfig);
+            </script>
+        
+            <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script> 
+            <script src="index(adm).js"></script>
+        </body>
+    
+    
+    
+    </html>
+    
+    
+    
+    </DOCTYPE!>

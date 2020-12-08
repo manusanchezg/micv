@@ -1,0 +1,34 @@
+p.card-text{
+    text-align:center;
+}
+#dropdownMenuButton{
+    position: fixed;
+    top: 20px;
+    left: 10px;
+}
+body{
+    background-image: url("7c4a5a5ee7b7e5955007391b2ce55665.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+.card{
+    width: 36rem; 
+    height: 755px;
+    /*position: fixed;
+    top: 10px;
+    left: 100px;*/
+    float: left;
+}
+
+/*.presentacion, .datosper, .trabajo1, .trabajo2 {
+    border: solid 2px grey;
+    margin: 5px
+}*/
+.cuadricula{
+    float: right;
+}

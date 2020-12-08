@@ -1,0 +1,67 @@
+*{
+    box-sizing:border-box;
+}
+body{
+     background-image: url("7c4a5a5ee7b7e5955007391b2ce55665.jpg");
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     height: 100%;
+     width: 100%;
+     color: white;
+}
+.C {
+    border: solid 12px black;
+    min-height: 250px;
+    min-width: 800px;
+    padding: 10px;
+    display: inline-block;
+    margin: 50 300
+}
+.prueba {
+    border: dashed 2px white;
+    height: 300px;
+    color: red;
+}
+.Boton1 {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: black;
+    color: white;
+    padding-right: 6px;
+    padding-left: 6px;
+    border-radius: 5px
+}
+.card{
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+    display: none;
+    color: black;
+}
+
+.nombre, .apellido {
+    display: inline;
+}
+.expdiv{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 15px;
+}
+
+.contacto, a {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+body{
+    background-image: url("7c4a5a5ee7b7e5955007391b2ce55665.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
